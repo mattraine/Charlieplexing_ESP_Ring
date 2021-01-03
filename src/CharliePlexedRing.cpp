@@ -90,6 +90,7 @@ void sequence_all()
 
 void displayTime()
 {
+  strobe = false;
   timeClient.update();
   int hours = timeClient.getHours();
   int mins = timeClient.getMinutes();
